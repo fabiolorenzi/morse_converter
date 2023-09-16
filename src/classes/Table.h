@@ -42,6 +42,8 @@ class Table
         std::string Eight;
         std::string Nine;
         std::string Space;
+        std::string Dot;
+        std::string GetKeyFromVar(std::string letter);
         Table();
         ~Table();
 };
