@@ -46,83 +46,83 @@ Table::~Table()
 {
 }
 
-std::string Table::GetKeyFromVar(std::string letter)
+std::string Table::GetKeyFromVar(char letter)
 {
-    if (letter == " ") {
+    if (letter == ' ') {
         return Space;
-    } else if (letter == "." || letter == "?" || letter == "!") {
+    } else if (letter == '.' || letter == '?' || letter == '!') {
         return Dot;
-    } else if (letter == "0") {
+    } else if (letter == '0') {
         return Zero;
-    } else if (letter == "1") {
+    } else if (letter == '1') {
         return One;
-    } else if (letter == "2") {
+    } else if (letter == '2') {
         return Two;
-    } else if (letter == "3") {
+    } else if (letter == '3') {
         return Three;
-    } else if (letter == "4") {
+    } else if (letter == '4') {
         return Four;
-    } else if (letter == "5") {
+    } else if (letter == '5') {
         return Five;
-    } else if (letter == "6") {
+    } else if (letter == '6') {
         return Six;
-    } else if (letter == "7") {
+    } else if (letter == '7') {
         return Seven;
-    } else if (letter == "8") {
+    } else if (letter == '8') {
         return Eight;
-    } else if (letter == "9") {
+    } else if (letter == '9') {
         return Nine;
-    } else if (letter == "a" || letter == "A") {
+    } else if (letter == 'a' || letter == 'A') {
         return a;
-    } else if (letter == "b" || letter == "B") {
+    } else if (letter == 'b' || letter == 'B') {
         return b;
-    } else if (letter == "c" || letter == "C") {
+    } else if (letter == 'c' || letter == 'C') {
         return c;
-    } else if (letter == "d" || letter == "D") {
+    } else if (letter == 'd' || letter == 'D') {
         return d;
-    } else if (letter == "e" || letter == "E") {
+    } else if (letter == 'e' || letter == 'E') {
         return e;
-    } else if (letter == "f" || letter == "F") {
+    } else if (letter == 'f' || letter == 'F') {
         return f;
-    } else if (letter == "g" || letter == "G") {
+    } else if (letter == 'g' || letter == 'G') {
         return g;
-    } else if (letter == "h" || letter == "H") {
+    } else if (letter == 'h' || letter == 'H') {
         return h;
-    } else if (letter == "i" || letter == "I") {
+    } else if (letter == 'i' || letter == 'I') {
         return i;
-    } else if (letter == "j" || letter == "J") {
+    } else if (letter == 'j' || letter == 'J') {
         return j;
-    } else if (letter == "k" || letter == "K") {
+    } else if (letter == 'k' || letter == 'K') {
         return k;
-    } else if (letter == "l" || letter == "L") {
+    } else if (letter == 'l' || letter == 'L') {
         return l;
-    } else if (letter == "m" || letter == "M") {
+    } else if (letter == 'm' || letter == 'M') {
         return m;
-    } else if (letter == "n" || letter == "N") {
+    } else if (letter == 'n' || letter == 'N') {
         return n;
-    } else if (letter == "o" || letter == "O") {
+    } else if (letter == 'o' || letter == 'O') {
         return o;
-    } else if (letter == "p" || letter == "P") {
+    } else if (letter == 'p' || letter == 'P') {
         return p;
-    } else if (letter == "q" || letter == "Q") {
+    } else if (letter == 'q' || letter == 'Q') {
         return q;
-    } else if (letter == "r" || letter == "R") {
+    } else if (letter == 'r' || letter == 'R') {
         return r;
-    } else if (letter == "s" || letter == "S") {
+    } else if (letter == 's' || letter == 'S') {
         return s;
-    } else if (letter == "t" || letter == "T") {
+    } else if (letter == 't' || letter == 'T') {
         return t;
-    } else if (letter == "u" || letter == "U") {
+    } else if (letter == 'u' || letter == 'U') {
         return u;
-    } else if (letter == "v" || letter == "V") {
+    } else if (letter == 'v' || letter == 'V') {
         return v;
-    } else if (letter == "w" || letter == "W") {
+    } else if (letter == 'w' || letter == 'W') {
         return w;
-    } else if (letter == "x" || letter == "X") {
+    } else if (letter == 'x' || letter == 'X') {
         return x;
-    } else if (letter == "y" || letter == "Y") {
+    } else if (letter == 'y' || letter == 'Y') {
         return y;
-    } else if (letter == "z" || letter == "Z") {
+    } else if (letter == 'z' || letter == 'Z') {
         return z;
     } else {
         return "";

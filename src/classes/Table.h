@@ -43,7 +43,7 @@ class Table
         std::string Nine;
         std::string Space;
         std::string Dot;
-        std::string GetKeyFromVar(std::string letter);
+        std::string GetKeyFromVar(char letter);
         Table();
         ~Table();
 };
