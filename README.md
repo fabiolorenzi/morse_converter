@@ -1,0 +1,1 @@
+This software is a GUI desktop application to convert a word or a sentence in morse code.
