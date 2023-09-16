@@ -46,7 +46,7 @@ Table::~Table()
 {
 }
 
-std::string Table::GetKeyFromVar(char letter)
+std::string Table::GetValueFromVar(char letter)
 {
     if (letter == ' ') {
         return Space;
