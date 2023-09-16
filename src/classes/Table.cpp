@@ -2,44 +2,44 @@
 
 Table::Table()
 {
-    this->a = "._";
-    this->b = "_...";
-    this->c = "_._.";
-    this->d = "_..";
+    this->a = ".-";
+    this->b = "-...";
+    this->c = "-.-.";
+    this->d = "-..";
     this->e = ".";
-    this->f = ".._.";
-    this->g = "__.";
+    this->f = "..-.";
+    this->g = "--.";
     this->h = "....";
     this->i = "..";
-    this->j = ".___";
-    this->k = "_._";
-    this->l = "._..";
-    this->m = "__";
-    this->n = "_.";
-    this->o = "____";
-    this->p = ".__.";
-    this->q = "__._";
-    this->r = "._.";
+    this->j = ".---";
+    this->k = "-.-";
+    this->l = ".-..";
+    this->m = "--";
+    this->n = "-.";
+    this->o = "---";
+    this->p = ".--.";
+    this->q = "--.-";
+    this->r = ".-.";
     this->s = "...";
-    this->t = "_";
-    this->u = ".._";
-    this->v = "..._";
-    this->w = ".__";
-    this->x = "_.._";
-    this->y = "_.__";
-    this->z = "__..";
-    this->Zero = "_____";
-    this->One = ".___";
-    this->Two = "..___";
-    this->Three = "...__";
-    this->Four = "...._";
+    this->t = "-";
+    this->u = "..-";
+    this->v = "...-";
+    this->w = ".--";
+    this->x = "-..-";
+    this->y = "-.--";
+    this->z = "--..";
+    this->Zero = "-----";
+    this->One = ".---";
+    this->Two = "..---";
+    this->Three = "...--";
+    this->Four = "....-";
     this->Five = ".....";
-    this->Six = "_....";
-    this->Seven = "__...";
-    this->Eight = "___..";
-    this->Nine = "____.";
-    this->Space = "|";
-    this->Dot = "|||";
+    this->Six = "-....";
+    this->Seven = "--...";
+    this->Eight = "---..";
+    this->Nine = "----.";
+    this->Space = "/";
+    this->Dot = "/-";
 }
 
 Table::~Table()

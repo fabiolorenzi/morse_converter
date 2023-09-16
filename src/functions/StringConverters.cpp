@@ -3,8 +3,14 @@
 std::string FromEngToMorse(std::string english)
 {
     Table table = Table();
-    std::cout << english[1] << std::endl;
-    std::cout << table.GetKeyFromVar(english[0]) << std::endl;
+    std::string converted;
+
+    std::cout << english << std::endl;
+    std::cout << english.length() << std::endl;
     
-    return table.a;
+    for (int x {}; x < english.length(); ++x) {
+        converted += table.GetKeyFromVar(english[x]) + " ";
+    };
+
+    return converted;
 }
