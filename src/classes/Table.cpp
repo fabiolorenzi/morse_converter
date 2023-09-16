@@ -39,7 +39,7 @@ Table::Table()
     this->Eight = "---..";
     this->Nine = "----.";
     this->Space = "/";
-    this->Dot = "/-";
+    this->Dot = ".-.-.-";
 }
 
 Table::~Table()
@@ -126,5 +126,88 @@ std::string Table::GetValueFromVar(char letter)
         return z;
     } else {
         return "";
+    };
+}
+
+char Table::GetValueFromMorse(std::string letter)
+{
+    if (letter == Space) {
+        return ' ';
+    } else if (letter == Dot) {
+        return '.';
+    } else if (letter == Zero) {
+        return '0';
+    } else if (letter == One) {
+        return '1';
+    } else if (letter == Two) {
+        return '2';
+    } else if (letter == Three) {
+        return '3';
+    } else if (letter == Four) {
+        return '4';
+    } else if (letter == Five) {
+        return '5';
+    } else if (letter == Six) {
+        return '6';
+    } else if (letter == Seven) {
+        return '7';
+    } else if (letter == Eight) {
+        return '8';
+    } else if (letter == Nine) {
+        return '9';
+    } else if (letter == a) {
+        return 'a';
+    } else if (letter == b) {
+        return 'b';
+    } else if (letter == c) {
+        return 'c';
+    } else if (letter == d) {
+        return 'd';
+    } else if (letter == e) {
+        return 'e';
+    } else if (letter == f) {
+        return 'f';
+    } else if (letter == g) {
+        return 'g';
+    } else if (letter == h) {
+        return 'h';
+    } else if (letter == i) {
+        return 'i';
+    } else if (letter == j) {
+        return 'j';
+    } else if (letter == k) {
+        return 'k';
+    } else if (letter == l) {
+        return 'l';
+    } else if (letter == m) {
+        return 'm';
+    } else if (letter == n) {
+        return 'n';
+    } else if (letter == o) {
+        return 'o';
+    } else if (letter == p) {
+        return 'p';
+    } else if (letter == q) {
+        return 'q';
+    } else if (letter == r) {
+        return 'r';
+    } else if (letter == s) {
+        return 's';
+    } else if (letter == t) {
+        return 't';
+    } else if (letter == u) {
+        return 'u';
+    } else if (letter == v) {
+        return 'v';
+    } else if (letter == w) {
+        return 'w';
+    } else if (letter == x) {
+        return 'x';
+    } else if (letter == y) {
+        return 'y';
+    } else if (letter == z) {
+        return 'z';
+    } else {
+        return '?';
     };
 }

@@ -44,6 +44,7 @@ class Table
         std::string Space;
         std::string Dot;
         std::string GetValueFromVar(char letter);
+        char GetValueFromMorse(std::string letter);
         Table();
         ~Table();
 };
